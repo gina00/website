@@ -1,0 +1,29 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "Node.js test",
+  "main": "app.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "author": "Gina",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.6.0",
+    "jquery": "^3.1.1"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-less": "^1.4.0",
+    "grunt-contrib-nodeunit": "~0.4.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^0.5.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "less": "^2.7.2",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  }
+}

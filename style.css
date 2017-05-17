@@ -1,0 +1,37 @@
+.btn-primary {
+  background-color: #5ecc49;
+  border-color: #61cd4d;
+}
+.btn-primary:hover {
+  background-color: #5EC24A;
+  border-color: #5EC24A;
+}
+.label {
+  display: inline;
+  padding: 0;
+  font-size: initial;
+  font-weight: normal;
+  line-height: normal;
+  text-align: left;
+  white-space: normal;
+  vertical-align: baseline;
+  border-radius: 0;
+}
+label {
+  display: inline;
+  padding: 0;
+  font-size: initial;
+  font-weight: normal;
+  line-height: normal;
+  text-align: left;
+  white-space: normal;
+  vertical-align: baseline;
+  border-radius: 0;
+}
+.checkbox,
+.radio {
+  position: relative;
+  display: inline;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
