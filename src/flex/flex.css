@@ -1,0 +1,109 @@
+.sliceBox{
+    position: relative;
+    width: 980px;
+}
+.imageList{
+    margin-left: 60px;
+    overflow: hidden;
+    width: 860px;
+    transition: 3s;
+}
+.imageList-ul{
+    width: 2000px;
+}
+.imageList ul li{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 20px;
+    color: #fff;
+    text-align: center;
+    background: pink;
+    /*background: #ef079d;*/
+}
+.imageList ul li:hover{
+    background: #0af;
+    transition: ease-in 0.2s; 
+    cursor: pointer;
+}
+.pre,.next{
+    width: 40px;
+    height: 80px;
+    position: absolute;
+    display: block;
+    background: #ccc;
+}
+.pre{
+    left: 0px;
+    top: 50px;
+}
+.next{
+    right: 0px;
+    top: 50px;
+}
+.transitionBox{
+    width: 1280px;
+    height: 300px;
+    padding: 50px;
+}
+.testBox{
+    width: 100px;
+    height: 100px;
+    background: #0af;
+    margin-top: 20px;
+    transition-property: width,background,left;
+    transition-duration: 2s,3s;
+    transition-timing-function: linear,ease;
+    transition-delay: 0s;
+    position: relative;
+    left: 0px;
+}
+.move{
+    width: 100px;
+    position: relative;
+    left: 300px;
+    background: deeppink;
+}
+.bookBox{
+    width: 200px;
+    margin-left: 60px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+.listBox{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    transition: 2s;
+}
+.listBox ul{
+    margin: 0px 10px;
+    
+}
+.listBox ul li{
+    padding: 8px 0px;
+}
+.bookBox h4{
+    padding: 20px 0px;
+    margin: 0px 10px;
+    border-bottom: 1px dashed #ccc;
+}
+.bookBox .btnBox{
+    padding: 10px;
+    margin: 10px;
+    border-top: 1px dashed #ccc;
+    cursor: pointer;
+    position: relative;
+}
+.bookBox .btnBox a{
+    position: absolute;
+    right: 0px;
+}
+.fold{
+    height: auto;
+    transition: 2s;
+}
+.message{
+    position: relative;
+    height: 250px;
+}
