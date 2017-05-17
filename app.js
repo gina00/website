@@ -1,10 +1,10 @@
 var express = require('express');
 var router = express.Router();
 var app = express();
-app.use(express.static('lib'));
-app.use(express.static('bootstrap'));
+app.use(express.static('node_modules'));
 app.use(express.static('theme'));
 app.use(express.static('src'));
+app.use(express.static('router'));
 // app.use('/',router);
 app.get('/', function (req, res) {
   res.send('Hello World!');
