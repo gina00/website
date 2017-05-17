@@ -1,0 +1,35 @@
+<div>
+    名: <input type="text" ng-model="firstName"><br>
+    姓: <input type="text" ng-model="lastName"><br>
+    <br>
+    姓名: {{firstName + " " + lastName}}
+</div>
+<div>
+    <h3>ng-repeat</h3>
+    <ul>
+        <li ng-repeat="item in name">{{$index + 1}}{{item}}</li>
+    </ul>
+    <input ng-model="greet.text">
+    <p>{{greet.text}},angular</p>
+</div>
+<form>
+    <input type="text" id="clock" size="50"  />
+    <input type="button" value="Stop" onclick="clearInterval(i)" />
+    <input type="button" value="Star" ng-click="clock()" />
+    
+  </form>
+ <br>
+ <h4>判断一个字符串中出现次数最多的字符，统计这个次数</h4>
+ <div id="showBox"></div>
+ <script>
+ function showMaxStr(){
+    var str = 'asdfssaaasasasasaa';
+    var subStr=str.charAt(0);
+    var ele=document.getElementById("showBox");
+    ele.firstChild.nodeValue="subStr";
+    for(var i=0;i<str.length;i++){
+
+    }
+}
+showMaxStr();
+</script>
